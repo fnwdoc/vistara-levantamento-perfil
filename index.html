@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistara - Sua Jornada para o Bem-Estar Integral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/f4a261/ffffff?text=Vistara');
+            background-size: cover;
+            background-position: center;
+        }
+        .modal-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+    <!-- Cabeçalho -->
+    <header class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-orange-800">Vistara</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#abordagem" class="text-gray-600 hover:text-orange-600 transition duration-300">Nossa Abordagem</a>
+                <a href="#jornada" class="text-gray-600 hover:text-orange-600 transition duration-300">Sua Jornada</a>
+                <a href="#programas" class="text-gray-600 hover:text-orange-600 transition duration-300">Programas</a>
+                <a href="#metodo" class="text-gray-600 hover:text-orange-600 transition duration-300">Para Profissionais</a>
+            </nav>
+            <a href="#programas" class="bg-orange-600 text-white px-6 py-2 rounded-full hover:bg-orange-700 transition duration-300 transform hover:scale-105">
+                Agendar Consulta
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-bg text-white min-h-screen flex items-center">
+        <div class="container mx-auto px-6 text-center bg-black bg-opacity-40 rounded-xl p-10 md:p-16">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Redescubra Seu Bem-Estar.</h2>
+            <p class="text-xl md:text-2xl mb-8 font-light">Equilíbrio pleno para corpo, mente e espírito.</p>
+            <a href="#programas" class="bg-white text-orange-800 px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-100 transition duration-300 transform hover:scale-105">
+                Inicie Sua Jornada
+            </a>
+        </div>
+    </section>
+
+    <main>
+        <!-- Seção de Identificação -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-6">Você se identifica com algum destes desafios?</h3>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-12">Se você respondeu sim a qualquer uma dessas perguntas, saiba que existe um caminho. Um caminho que enxerga você por completo.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-orange-50 p-8 rounded-xl shadow-sm">
+                        <h4 class="text-xl font-semibold mb-2">Cansaço Constante</h4>
+                        <p class="text-gray-600">Falta de energia, sensação de peso no corpo ou dificuldade para realizar as tarefas do dia a dia.</p>
+                    </div>
+                    <div class="bg-orange-50 p-8 rounded-xl shadow-sm">
+                        <h4 class="text-xl font-semibold mb-2">Desconfortos Físicos</h4>
+                        <p class="text-gray-600">Dores persistentes que não melhoram com tratamentos convencionais e afetam sua qualidade de vida.</p>
+                    </div>
+                    <div class="bg-orange-50 p-8 rounded-xl shadow-sm">
+                        <h4 class="text-xl font-semibold mb-2">Desequilíbrio Emocional</h4>
+                        <p class="text-gray-600">Distúrbios de humor, ansiedade, estresse ou pensamentos negativos recorrentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Abordagem -->
+        <section id="abordagem" class="py-16 md:py-24 bg-orange-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-4">A Resposta é o Equilíbrio: A Abordagem Vistara</h3>
+                    <p class="max-w-3xl mx-auto text-lg text-gray-600">Nossa saúde é um ecossistema delicado. Por isso, nossa abordagem se baseia em 4 dimensões essenciais do seu ser.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Cards dos Pilares -->
+                    <div class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h1a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.88 7.88l.001.001M16.12 7.88l.001.001M12 21a9 9 0 110-18 9 9 0 010 18z"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-2">Fisiológico</h4>
+                        <p class="text-gray-600">Cuidamos do seu "terreno biológico" com detox, nutrição e terapias avançadas para ativar a regeneração do corpo.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-2">Emocional</h4>
+                        <p class="text-gray-600">Acolhemos suas emoções com escuta presente e práticas sistêmicas para liberar bloqueios e cultivar o bem-estar.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex justify-center mb-4">
+                            <svg class="w-16 h-16 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-2">Energético</h4>
+                        <p class="text-gray-600">Restauramos seu fluxo de energia vital, dissolvendo a estagnação e despertando seu potencial para devolver a leveza.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex justify-center mb-4">
+                           <svg class="w-16 h-16 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h4 class="text-2xl font-semibold mb-2">Espiritual</h4>
+                        <p class="text-gray-600">Reconectamos você com sua essência e seu propósito, alinhando suas ações com o que realmente importa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Jornada -->
+        <section id="jornada" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-4">Sua Jornada Personalizada para a Saúde Plena</h3>
+                    <p class="max-w-3xl mx-auto text-lg text-gray-600">Entendemos que cada pessoa é única. Por isso, nosso processo é desenhado para ser tão individual quanto você.</p>
+                </div>
+                <div class="relative">
+                    <!-- Linha do tempo -->
+                    <div class="hidden md:block border-l-2 border-orange-300 absolute h-full top-0 left-1/2 -ml-px"></div>
+                    <!-- Passos -->
+                    <div class="mb-12 md:flex md:justify-between md:items-center w-full">
+                        <div class="md:w-5/12"><div class="bg-orange-50 p-8 rounded-xl shadow-sm"><h4 class="text-2xl font-semibold text-orange-700 mb-3">Passo 1: Diagnóstico Profundo</h4><p class="text-gray-600">Tudo começa com uma anamnese detalhada. Vamos ouvir sua história para formar um raciocínio clínico completo sobre a sua saúde.</p></div></div>
+                        <div class="hidden md:flex w-1/12 justify-center"><div class="w-8 h-8 bg-orange-600 rounded-full shadow-lg flex items-center justify-center text-white font-bold">1</div></div>
+                        <div class="md:w-5/12"></div>
+                    </div>
+                    <div class="mb-12 md:flex md:justify-between md:items-center w-full">
+                        <div class="md:w-5/12 md:order-3"><div class="bg-orange-50 p-8 rounded-xl shadow-sm"><h4 class="text-2xl font-semibold text-orange-700 mb-3">Passo 2: Proposta de Cuidado</h4><p class="text-gray-600">Apresentamos uma proposta de tratamento inicial clara, focada na sua queixa principal e integrando as dimensões essenciais.</p></div></div>
+                        <div class="hidden md:flex w-1/12 justify-center md:order-2"><div class="w-8 h-8 bg-orange-600 rounded-full shadow-lg flex items-center justify-center text-white font-bold">2</div></div>
+                        <div class="md:w-5/12 md:order-1"></div>
+                    </div>
+                    <div class="mb-12 md:flex md:justify-between md:items-center w-full">
+                        <div class="md:w-5/12"><div class="bg-orange-50 p-8 rounded-xl shadow-sm"><h4 class="text-2xl font-semibold text-orange-700 mb-3">Passo 3: Acompanhamento</h4><p class="text-gray-600">Acompanhamos cada passo, ajustando o plano e educando você sobre as conexões entre corpo, mente e espírito.</p></div></div>
+                        <div class="hidden md:flex w-1/12 justify-center"><div class="w-8 h-8 bg-orange-600 rounded-full shadow-lg flex items-center justify-center text-white font-bold">3</div></div>
+                        <div class="md:w-5/12"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Programas -->
+        <section id="programas" class="py-16 md:py-24 bg-orange-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-4">Programas de Cuidado Vistara</h3>
+                    <p class="max-w-3xl mx-auto text-lg text-gray-600">Escolha o ponto de partida ideal para a sua transformação.</p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                    <!-- Cards dos Pacotes -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <h4 class="text-2xl font-bold text-orange-800 mb-4">Descoberta Vistara</h4>
+                        <p class="text-gray-600 mb-6 flex-grow">Ideal para um primeiro contato com a saúde integrativa e para buscar clareza sobre suas queixas.</p>
+                        <ul class="text-gray-700 space-y-3 mb-8 flex-grow">
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Consulta Integrativa (90 min)</li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Análise das 4 Dimensões da Saúde</li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Relatório com Raciocínio Clínico</li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Proposta de plano de tratamento</li>
+                        </ul>
+                        <a href="#" class="mt-auto w-full text-center bg-orange-100 text-orange-800 font-semibold py-3 px-6 rounded-full hover:bg-orange-200 transition duration-300">Quero Começar por Aqui</a>
+                    </div>
+                    <div class="bg-orange-700 text-white rounded-xl shadow-2xl p-8 flex flex-col border-4 border-orange-400 transform scale-105">
+                         <div class="text-center mb-4"><span class="bg-orange-400 text-orange-900 text-sm font-bold px-4 py-1 rounded-full">MAIS POPULAR</span></div>
+                        <h4 class="text-3xl font-bold mb-4 text-center">Jornada de Equilíbrio</h4>
+                        <p class="mb-6 flex-grow text-center text-orange-100">Para quem está comprometido em tratar a causa raiz de um desequilíbrio específico.</p>
+                        <ul class="space-y-3 mb-8 flex-grow">
+                            <li class="flex items-center"><span class="text-orange-300 mr-3">✔</span><strong>Tudo do Pacote Descoberta</strong></li>
+                            <li class="flex items-center"><span class="text-orange-300 mr-3">✔</span>3 Sessões de Acompanhamento</li>
+                            <li class="flex items-center"><span class="text-orange-300 mr-3">✔</span>Plano de Detox e Nutrição</li>
+                            <li class="flex items-center"><span class="text-orange-300 mr-3">✔</span>Acesso a canal para dúvidas</li>
+                        </ul>
+                        <a href="#" class="mt-auto w-full text-center bg-white text-orange-800 font-bold py-3 px-6 rounded-full hover:bg-orange-100 transition duration-300 transform hover:scale-105">Iniciar Minha Jornada</a>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <h4 class="text-2xl font-bold text-orange-800 mb-4">Transformação Integral</h4>
+                        <p class="text-gray-600 mb-6 flex-grow">A experiência mais completa para uma imersão profunda no seu bem-estar e mudanças sustentáveis.</p>
+                        <ul class="text-gray-700 space-y-3 mb-8 flex-grow">
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span><strong>Tudo da Jornada de Equilíbrio</strong></li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Total de 6 Sessões (3 meses)</li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>2 Sessões de Terapia Complementar</li>
+                            <li class="flex items-center"><span class="text-orange-500 mr-3">✔</span>Reavaliação completa ao final</li>
+                        </ul>
+                        <a href="#" class="mt-auto w-full text-center bg-orange-100 text-orange-800 font-semibold py-3 px-6 rounded-full hover:bg-orange-200 transition duration-300">Quero a Transformação Completa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção para Profissionais / Método Vistara -->
+        <section id="metodo" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-4">Para Profissionais da Saúde: O Método Vistara</h3>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">O nosso sucesso se baseia em um método integrativo, estruturado e replicável. Se você é um profissional que busca organizar seus atendimentos e potencializar seus resultados, nossa assessoria pode ser o próximo passo na sua carreira.</p>
+                <button id="openModalBtn" class="bg-orange-600 text-white px-10 py-3 rounded-full text-lg font-semibold hover:bg-orange-700 transition duration-300 transform hover:scale-105">
+                    Quero Saber Mais sobre a Assessoria
+                </button>
+            </div>
+        </section>
+
+        <!-- Seção Final CTA -->
+        <section class="py-16 md:py-24 bg-orange-50">
+            <div class="container mx-auto px-6 text-center">
+                <h3 class="text-3xl md:text-4xl font-bold text-orange-800 mb-4">Pronto para iniciar sua jornada rumo ao equilíbrio pleno?</h3>
+                <p class="max-w-2xl mx-auto text-lg text-gray-600 mb-8">O poder de se regenerar já está em você. Nós apenas mostramos o caminho.</p>
+                <a href="#programas" class="bg-orange-600 text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-orange-700 transition duration-300 transform hover:scale-105">
+                    Agende Sua Consulta e Dê o Primeiro Passo
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-orange-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2024 Vistara. Todos os direitos reservados.</p>
+            <p class="text-sm text-orange-200 mt-2">Sua jornada para o bem-estar integral começa aqui.</p>
+        </div>
+    </footer>
+
+    <!-- Modal para Profissionais -->
+    <div id="professionalModal" class="modal-hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4">
+        <div class="bg-orange-50 rounded-xl shadow-2xl p-8 w-11/12 md:w-2/3 max-w-4xl max-h-screen overflow-y-auto">
+            <div class="flex justify-between items-center mb-6">
+                <h4 class="text-2xl font-semibold text-orange-700">Interesse na Assessoria Vistara</h4>
+                <button id="closeModalBtn" class="text-gray-500 hover:text-gray-800 text-3xl cursor-pointer">&times;</button>
+            </div>
+            <p class="text-gray-600 text-center mb-6">Preencha seus dados e responda a enquete para entendermos seu momento profissional. Entraremos em contato em breve!</p>
+            
+            <form id="leadForm" class="space-y-4">
+                <!-- Campos de Contato -->
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nome Completo</label>
+                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500">
+                </div>
+                 <div>
+                    <label for="whatsapp" class="block text-sm font-medium text-gray-700">WhatsApp (com DDD)</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required placeholder="Ex: 11987654321" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500">
+                </div>
+                
+                <hr class="my-6 border-orange-200">
+
+                <!-- Opções da enquete -->
+                <div id="radioGroup" class="space-y-3 border-2 border-transparent rounded-lg p-2 transition-colors duration-300">
+                    <p class="text-sm font-medium text-gray-700">Qual seu perfil profissional atual?</p>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Estudante, não atendo" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou estudante e ainda não atendo.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Estudante, já atendo" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou estudante e já atendo em uma clinica.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Profissional, não empresário" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou profissional, ja atendo mas não quero atuar como empresa, clínica ou negócio.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Profissional, CLT" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou profissional e trabalho para outro negócio.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Profissional, quero negócio" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou profissional e quero ter um negócio.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Empresário, 1 negócio" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou profissional e empresária(o) e já tenho um negócio.</span></label>
+                    <label class="flex items-center p-3 bg-white border border-gray-200 rounded-lg hover:bg-orange-100 cursor-pointer"><input type="radio" name="professional_status" value="Empresário, 2+ negócios" class="h-5 w-5 text-orange-600 border-gray-300 focus:ring-orange-500"><span class="ml-3 text-gray-700">Sou profissional e empresária(o) e já tenho mais de um negócio.</span></label>
+                </div>
+                <p id="statusError" class="text-red-500 text-sm text-center hidden">Por favor, selecione uma opção.</p>
+
+                <div class="pt-6 text-center">
+                     <button type="submit" class="w-full md:w-auto bg-orange-600 text-white px-10 py-3 rounded-full text-lg font-semibold hover:bg-orange-700 transition duration-300 transform hover:scale-105">
+                        Enviar e Abrir WhatsApp
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Espera que todo o conteúdo da página, incluindo imagens, esteja completamente carregado.
+        window.addEventListener('load', function() {
+            const modal = document.getElementById('professionalModal');
+            if (!modal) {
+                console.error("Elemento do modal não encontrado.");
+                return;
+            }
+
+            const openBtn = document.getElementById('openModalBtn');
+            const closeBtn = document.getElementById('closeModalBtn');
+            const leadForm = document.getElementById('leadForm');
+            const radioGroup = document.getElementById('radioGroup');
+            const statusError = document.getElementById('statusError');
+            let modalTimer;
+
+            const openModal = () => {
+                clearTimeout(modalTimer); // Cancela o temporizador se o modal for aberto.
+                modal.classList.remove('modal-hidden');
+            };
+            
+            const closeModal = () => {
+                modal.classList.add('modal-hidden');
+                // Limpa o estado de erro ao fechar.
+                statusError.classList.add('hidden');
+                radioGroup.classList.remove('border-red-500');
+            };
+
+            // Adiciona os event listeners aos botões.
+            if(openBtn) openBtn.addEventListener('click', openModal);
+            if(closeBtn) closeBtn.addEventListener('click', closeModal);
+            
+            // Event listener para fechar ao clicar fora do conteúdo do modal.
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // Lógica do formulário.
+            if(leadForm) {
+                leadForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const whatsapp = document.getElementById('whatsapp').value;
+                    const statusRadio = document.querySelector('input[name="professional_status"]:checked');
+
+                    // Validação da seleção do rádio.
+                    if (!statusRadio) {
+                        statusError.classList.remove('hidden');
+                        radioGroup.classList.add('border-red-500');
+                        return;
+                    }
+
+                    statusError.classList.add('hidden');
+                    radioGroup.classList.remove('border-red-500');
+
+                    const status = statusRadio.value;
+                    const vistaraWhatsapp = '553299975959';
+                    let message = `Olá! Tenho interesse na assessoria do Método Vistara.\n\n`;
+                    message += `*Nome:* ${name}\n`;
+                    message += `*E-mail:* ${email}\n`;
+                    message += `*WhatsApp:* ${whatsapp}\n\n`;
+                    message += `*Perfil Profissional:* ${status}`;
+                    const whatsappUrl = `https://wa.me/${vistaraWhatsapp}?text=${encodeURIComponent(message)}`;
+
+                    window.open(whatsappUrl, '_blank');
+                    
+                    leadForm.reset();
+                    closeModal();
+                });
+            }
+
+            // Inicia o temporizador para abrir o modal automaticamente após 4 segundos.
+            modalTimer = setTimeout(openModal, 4000);
+        });
+    </script>
+
+</body>
+</html>
